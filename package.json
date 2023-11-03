@@ -1,7 +1,7 @@
 {
   "name": "login-system-jwt",
   "version": "1.0.0",
-  "description": "NodeJS express starter pack",
+  "description": "NodeJS Express - Import and Export Excel",
   "main": "src/server.js",
   "scripts": {
     "test": "jest",
