@@ -1,5 +1,10 @@
 import supertest from 'supertest'
 import web from '../../src/applications/web.js'
+import mongoose from '../../src/applications/database.js'
+
+afterAll(async () => {
+  mongoose.connection.close()
+})
 
 describe('GET /', () => {
   it('should can access the welcome page', async () => {
