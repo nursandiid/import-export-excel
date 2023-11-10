@@ -1,5 +1,5 @@
 {
-  "name": "login-system-jwt",
+  "name": "import-export-excel",
   "version": "1.0.0",
   "description": "NodeJS Express - Import and Export Excel",
   "main": "src/server.js",
